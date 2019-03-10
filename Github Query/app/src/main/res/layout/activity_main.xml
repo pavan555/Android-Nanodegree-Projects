@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2016 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/search_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Searching Text"
+        android:textSize="22sp"/>
+
+
+<TextView
+    android:id="@+id/url_display"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="URL will show up here when you click search"
+    android:layout_marginTop="8dp"
+    android:textSize="22sp"
+    />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Searches will appear here"
+        android:textSize="20sp"/>
+</ScrollView>
+        <TextView
+            android:id="@+id/error_display_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_display"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            />
+        <ProgressBar
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/pb_loader"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+</LinearLayout>
