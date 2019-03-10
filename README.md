@@ -1,9 +1,9 @@
 # Android-Nanodegree-Projects
 Projects done during my android developer nano degree
 
-#### Main Project:
+## Main Project:
   * Sunshine
 
-#### Lesson Projects:
+## Lesson Projects:
   1. Project Setup
   2. Github Query
