@@ -5,5 +5,5 @@ Projects done during my android developer nano degree
   * Sunshine
 
 ## Lesson Projects:
-  1. Project Setup
+  1. Project Setup(Favorite Toys)
   2. Github Query
