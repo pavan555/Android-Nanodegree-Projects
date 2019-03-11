@@ -7,3 +7,4 @@ Projects done during my android developer nano degree
 ## Lesson Projects:
   1. Project Setup(Favorite Toys)
   2. Github Query
+  3. RecyclerView Example
